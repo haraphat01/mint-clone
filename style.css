@@ -1,9 +1,13 @@
 body {
   background-color: blue;
-  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: normal;
-    color: #505050;
+  font-family: "AvenirNext", Avenir, "Helvetica Neue", Arial, sans-serif;
+  font-weight: normal;
+  color: #505050;
+}
 
+a {
+  color: #0077c5;
+  text-decoration: none;
 }
 
 .main-container-div {
@@ -12,7 +16,7 @@ body {
   background-color: rgb(236, 238, 241);
 }
 
-  .nav-bar-div {
+.nav-bar-div {
   width: 100%;
   height: 3.125rem;
   background-color: rgb(236, 238, 241);
@@ -20,10 +24,6 @@ body {
   display: flex;
   justify-content: flex-end;
   padding-top: 1rem;
-  
-  
-  
-
 }
 
 .sign-up-btn-div {
@@ -36,17 +36,79 @@ body {
   height: 2.5rem;
   margin-right: 3rem;
   border: 1px solid black;
-  
 }
 
 .nav-bar-text-div {
   font-size: 0.8rem;
   line-height: 1.5em;
-
-  
 }
 
 .nav-bar-text-div span {
   color: #0077c5;
-  
+}
+
+.logo_and_form_main {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.logo-div {
+  display: flex;
+  justify-content: center;
+}
+
+.form-div {
+  display: flex;
+  justify-content: center;
+}
+
+.form-section {
+  width: 30%;
+  background-color: white;
+  border: 2px solid black;
+}
+
+.form-text-div h3 {
+  font-size: 1.5rem;
+  line-height: 4rem;
+  font-weight: 100;
+}
+
+.input-boxes-div {
+  margin: 1rem;
+  margin-top: 0.5rem;
+  padding: 2rem 0.01rem 2rem 0.01rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-boxes-div fieldset {
+  margin-top: 1rem;
+  padding: 0.5rem;
+}
+
+.input-boxes-div input {
+  width: 100%;
+  height: 2rem;
+  border: 0.5px solid grey;
+  border-radius: 0.2rem;
+}
+
+.input-boxes-div p {
+  margin-top: 0.4rem;
+  font-size: 0.65rem;
+  text-align: left;
+}
+
+.input-btn-div {
+  background-color: #0077c5;
+  color: white;
+  text-align: center;
+  border: none;
+  border-radius: 0.2rem;
+  width: 100%;
+  height: 2.5rem;
+  font-weight: 400;
+  font-size: 1rem;
 }
