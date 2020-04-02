@@ -86,6 +86,7 @@ a {
 .input-boxes-div fieldset {
   margin-top: 1rem;
   padding: 0.5rem;
+  text-align: left;
 }
 
 .input-boxes-div input {
